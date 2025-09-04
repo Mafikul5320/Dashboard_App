@@ -1,6 +1,6 @@
 # 📊 User Management Dashboard
 
-A simple **Next.js 13+** application that fetches users from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/).  
+A simple **Next.js ** application that fetches users from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/).  
 It includes a **User List Page**, **Search by name/email**, and a **User Details Page**.  
 Built with **React, TailwindCSS, and Axios**.
 
