@@ -3,6 +3,7 @@
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
+import Spinner from "./Spinner";
 
 const Alluser = () => {
     const [users, setUsers] = useState([]);
@@ -61,7 +62,7 @@ const Alluser = () => {
                         Search
                     </button>
                 </div>
-
+                {loading && <Spinner />}
                 {error && <p className="text-red-500 mb-4">{error}</p>}
                 {/* Table */}
                 <div className="overflow-x-auto">
